@@ -2,9 +2,10 @@
 @section('content')
 <section id="content">
 			<!-- Content Row -->
-			<section class="content-row content-row-color content-row-clouds">
-				<div class="content-slider animate-container-slide" data-nav="true" data-rotation="5">
-					<a class="slide" data-title="Cloud Hosting" href="products-cloud-hosting.html">
+			{{-- <section class="content-row content-row-color content-row-clouds"> --}}
+			<section class="content-row content-row-color">
+				<div class="content-slider animate-container-slide" data-nav="true" data-rotation="5" style="height: 300px !important;">
+					<a class="slide" data-title="Cloud Hosting" href="products-cloud-hosting.html" style=" background-size: cover; background-image: url('{{URL::asset('frontend/img/slider/11.jpg')}}');">
 						<div class="container">
 							<header class="content-header content-header-large content-header-uppercase">
 								<h1>
@@ -14,10 +15,10 @@
 									Fully managed enterprise hosting with failover support and load balancing, starting at just <span class="text-color-secondary">$9/month</span>
 								</p>
 							</header>
-							<img src="{{asset('')}}frontend/uploads/server-shared.png" alt="">
+							{{-- <img src="{{asset('')}}frontend/uploads/server-shared.png" alt=""> --}}
 						</div>
 					</a>
-					<a class="slide" data-title="Cloud Servers" href="products-cloud-servers.html">
+					<a class="slide" data-title="Cloud Servers" href="products-cloud-servers.html" style=" background-size: cover; background-image: url('{{URL::asset('frontend/img/slider/11.jpg')}}');">
 						<div class="container">
 							<header class="content-header content-header-large content-header-uppercase">
 								<h1>
@@ -30,7 +31,7 @@
 							<img src="{{asset('')}}frontend/uploads/server-virtual.png" alt="">
 						</div>
 					</a>
-					<a class="slide" data-title="Dedicated Cloud" href="products-dedicated-cloud.html">
+					<a class="slide" data-title="Dedicated Cloud" href="products-dedicated-cloud.html" style=" background-size: cover; background-image: url('{{URL::asset('frontend/img/slider/11.jpg')}}');">
 						<div class="container">
 							<header class="content-header content-header-large content-header-uppercase">
 								<h1>
@@ -40,12 +41,71 @@
 									Enterprise cloud servers with dedicated resources and KVM virtualization, starting at just <span class="text-color-secondary">$399/month</span>
 								</p>
 							</header>
-							<img src="{{asset('')}}frontend/uploads/server-dedicated.png" alt="">
+							{{-- <img src="{{asset('')}}frontend/uploads/server-dedicated.png" alt=""> --}}
 						</div>
 					</a>
 				</div>
 			</section>
 			<!-- Content Row -->
+
+{{-- Slider Start --}}
+
+			
+{{-- <section class="content-row content-row-color content-row-border-top">
+				<div class="content-slider animate-container-slide animate-background-fade" data-nav="true">
+					<a class="slide" href="products-cloud-hosting.html">
+						<div class="container text-align-center">
+							<header class="content-header content-header-large content-header-uppercase">
+								<h1>
+									<mark>Shared</mark> Cloud Hosting
+								</h1>
+								<p>
+									Fully managed enterprise hosting with failover support and load balancing, starting at just <span class="text-color-secondary">$9/month</span>
+								</p>
+							</header>
+							<img width="610" src="{{asset('')}}frontend/uploads/server-shared-stack.png">
+						</div>
+						<div class="content-background content-background-light">
+							<video src="{{asset('')}}frontend/uploads/banner-user-onboarding.mp4" autoplay loop muted></video>
+						</div>
+					</a>
+					<a class="slide" href="products-cloud-servers.html">
+						<div class="container text-align-center">
+							<header class="content-header content-header-large content-header-uppercase">
+								<h1>
+									<mark>Virtual</mark> Cloud Servers
+								</h1>
+								<p>
+									Powerful cloud servers on enterprise infrastructure with KVM virtualization, starting at just <span class="text-color-secondary">$19/month</span>
+								</p>
+							</header>
+							<img width="610" src="{{asset('')}}frontend/uploads/server-virtual-stack.png">
+						</div>
+						<div class="content-background content-background-light">
+							<img src="{{asset('')}}frontend/uploads/gallery-2.jpg" alt="">
+						</div>
+					</a>
+					<a class="slide" href="products-dedicated-cloud.html">
+						<div class="container text-align-center">
+							<header class="content-header content-header-large content-header-uppercase">
+								<h1>
+									<mark>Dedicated</mark> Private Cloud
+								</h1>
+								<p>
+									Enterprise cloud servers with dedicated resources and KVM virtualization, starting at just <span class="text-color-secondary">$399/month</span>
+								</p>
+							</header>
+							<img width="610" src="{{asset('')}}frontend/uploads/server-dedicated-stack.png">
+						</div>
+						<div class="content-background content-background-light">
+							<img src="{{asset('')}}frontend/uploads/gallery-3.jpg" alt="">
+						</div>
+					</a>
+				</div>
+			</section> --}}
+
+
+{{-- Slider End --}}
 			
 			<!-- Content Row -->
 			<section class="content-row content-row-gray">
@@ -62,15 +122,7 @@
 						<div class="column-33">
 							<div class="product-box product-box-popular">
 								<div class="product-popular">
-									Most Popular
-								</div>
-								<div class="product-header">
-									<h4>
-									Cloud Business
-									</h4>
-									<p>
-										High traffic corporate sites
-									</p>
+									DEDICATED SERVER
 								</div>
 								<div class="product-price">
 									$18<span class="term">/ month</span>
@@ -78,18 +130,28 @@
 								<div class="product-features">
 									<ul>
 										<li>
-											<strong>30</strong> Hosted Domains
+											Powered by cPanel&reg;
 										</li>
 										<li>
-											<strong>75 GB</strong> RAID 10 Storage
+											Dedicated IP Address
 										</li>
 										<li>
-											<strong>600 GB</strong> Premium Bandwidth
+											99.95% Uptime SLA
 										</li>
-									</ul>
-									<ul>
+										<li>
+											1000 Mbit Uplink
+										</li>
 										<li>
 											Powered by cPanel&reg;
+										</li>
+										<li>
+											Dedicated IP Address
+										</li>
+										<li>
+											99.95% Uptime SLA
+										</li>
+										<li>
+											1000 Mbit Uplink
 										</li>
 										<li>
 											Dedicated IP Address
@@ -112,15 +174,7 @@
 						<div class="column-33">
 							<div class="product-box product-box-popular">
 								<div class="product-popular">
-									Most Popular
-								</div>
-								<div class="product-header">
-									<h4>
-									Cloud Business
-									</h4>
-									<p>
-										High traffic corporate sites
-									</p>
+									DEDICATED SERVER
 								</div>
 								<div class="product-price">
 									$18<span class="term">/ month</span>
@@ -128,18 +182,28 @@
 								<div class="product-features">
 									<ul>
 										<li>
-											<strong>30</strong> Hosted Domains
+											Powered by cPanel&reg;
 										</li>
 										<li>
-											<strong>75 GB</strong> RAID 10 Storage
+											Dedicated IP Address
 										</li>
 										<li>
-											<strong>600 GB</strong> Premium Bandwidth
+											99.95% Uptime SLA
 										</li>
-									</ul>
-									<ul>
+										<li>
+											1000 Mbit Uplink
+										</li>
 										<li>
 											Powered by cPanel&reg;
+										</li>
+										<li>
+											Dedicated IP Address
+										</li>
+										<li>
+											99.95% Uptime SLA
+										</li>
+										<li>
+											1000 Mbit Uplink
 										</li>
 										<li>
 											Dedicated IP Address
@@ -163,15 +227,7 @@
 						<div class="column-33">
 							<div class="product-box product-box-popular">
 								<div class="product-popular">
-									Most Popular
-								</div>
-								<div class="product-header">
-									<h4>
-									Cloud Business
-									</h4>
-									<p>
-										High traffic corporate sites
-									</p>
+									DEDICATED SERVER
 								</div>
 								<div class="product-price">
 									$18<span class="term">/ month</span>
@@ -179,18 +235,28 @@
 								<div class="product-features">
 									<ul>
 										<li>
-											<strong>30</strong> Hosted Domains
+											Powered by cPanel&reg;
 										</li>
 										<li>
-											<strong>75 GB</strong> RAID 10 Storage
+											Dedicated IP Address
 										</li>
 										<li>
-											<strong>600 GB</strong> Premium Bandwidth
+											99.95% Uptime SLA
 										</li>
-									</ul>
-									<ul>
+										<li>
+											1000 Mbit Uplink
+										</li>
 										<li>
 											Powered by cPanel&reg;
+										</li>
+										<li>
+											Dedicated IP Address
+										</li>
+										<li>
+											99.95% Uptime SLA
+										</li>
+										<li>
+											1000 Mbit Uplink
 										</li>
 										<li>
 											Dedicated IP Address
@@ -210,7 +276,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
 				</div>
 			</section>
 			<!-- Content Row -->
@@ -305,7 +370,7 @@
 			<!-- Content Row -->
 
 			<!-- OUR CLIENTS START -->
-			<section class="content-row content-row-gray">
+			{{-- <section class="content-row content-row-gray">
 				<div class="container">
 					<header class="content-header">
 						<h2>
@@ -378,7 +443,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> --}}
 			<!-- OUR CLIENTS END -->
 			
 		</section>
