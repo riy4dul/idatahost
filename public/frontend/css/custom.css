@@ -7,7 +7,7 @@
  *
  * Default: #0098ef
  */
-.text-color-primary
+/*.text-color-primary
 {
 	color: #844fe1 !important;
 }
@@ -25,7 +25,7 @@ body.preload::before,table caption,button.button-primary,.button.button-primary,
 input:not(.no-custom-style):focus,select:not(.no-custom-style):focus,textarea:not(.no-custom-style):focus,form .checkbox-style.focus,form .radio-style.focus,form .select-style input.focus,.product-box.product-box-popular,.product-slider .slider .range .handle,.product-configurator .slider .range .handle,.pagination > li.active a
 {
 	border-color: #844fe1;
-}
+}*/
 
 /**
  * Secondary Color
@@ -36,7 +36,7 @@ input:not(.no-custom-style):focus,select:not(.no-custom-style):focus,textarea:no
  *
  * Default: #ffcc33
  */
-.text-color-secondary
+/*.text-color-secondary
 {
 	color: #ffcc33 !important;
 }
@@ -54,7 +54,7 @@ mark,button.button-secondary,.button.button-secondary
 #content > .content-row.content-row-color .pagination > li.active a
 {
 	border-color: #ffcc33;
-}
+}*/
 
 /**
  * Header Background
@@ -64,9 +64,7 @@ mark,button.button-secondary,.button.button-secondary
  *
  * Default: #0098ef
  */
-#header,#nav-overlay-background
-{
-}
+
 
 /**
  * Notification Background
@@ -77,10 +75,10 @@ mark,button.button-secondary,.button.button-secondary
  *
  * Default: #00629a
  */
-#notification
+/*#notification
 {
 	background-color: #844fe1;
-}
+}*/
 
 /**
  * Content Row Background
@@ -90,13 +88,13 @@ mark,button.button-secondary,.button.button-secondary
  *
  * Default: #0098ef
  */
-#content > .content-row.content-row-color,
+/*#content > .content-row.content-row-color,
 #content > .content-row.content-row-color.content-row-split-left::after,
 #content > .content-row.content-row-color.content-row-split-right::after
 {
 	background-color: #844fe1;
 }
-
+*/
 /**
  * Footer Background
  *
@@ -106,6 +104,29 @@ mark,button.button-secondary,.button.button-secondary
  *
  * Default: #0098ef
  */
- .footer-color
+ /*.footer-color
  {
+ }*/
+
+ /*=================footer Start=============*/
+ .footer-secondary{
+ 	text-align: center;
  }
+
+#footer{
+	color: white;
+	background-color: #0098ef;
+	text-align: center;
+}
+#footer .footer-primary ul li a{
+	color: white;
+	padding: 0 0 0 0;
+}
+.last a {
+	color: white;
+}
+
+/*#footer .footer-primary ul li a{
+
+}*/
+ /*=================footer Start=============*/

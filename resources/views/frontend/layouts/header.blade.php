@@ -8,116 +8,35 @@
 					<ul class="nav-primary">
 						<li>
 							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Server</a>
 							<ul>
-								<li>
-									<a href="products-cloud-hosting.html">Cloud Hosting</a>
-								</li>
-								<li>
-									<a href="products-cloud-servers.html">Cloud Servers</a>
-									<ul>
-										<li>
-											<a href="products-developer-cloud.html">Developer Cloud</a>
-										</li>
-										<li>
-											<a href="products-custom-cloud.html">Custom Cloud</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="products-dedicated-cloud.html">Dedicated Cloud</a>
-								</li>
-								<li>
-									<a href="products-block-storage.html">Block Storage</a>
-								</li>
-								<li>
-									<a href="products-anycast-dns.html">Anycast DNS</a>
-								</li>
-								<li>
-									<a href="products-ssl-certificates.html">SSL Certificates</a>
-								</li>
-								<li>
-									<a href="products-domain-names.html">Domain Names</a>
-								</li>
+								<li><a href="">Dedicated Server</a></li>
+								<li><a href="">Cloud Server</a></li>
+								<li><a href="">Storage Server</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="features.html">Server</a>
+							<a href="features.html">Hosting</a>
 							<ul>
-								<li>
-									<a href="index.html">Demos</a>
-									<ul>
-										<li>
-											<a href="home.html">Default</a>
-										</li>
-										<li>
-											<a href="home-large-slider.html">Large Slider</a>
-										</li>
-										<li>
-											<a href="home-light-header.html">Light Header</a>
-										</li>
-										<li>
-											<a href="home-single-page.html">Single Page</a>
-										</li>
-										<li>
-											<a href="home-light-slider.html">Light Slider</a>
-										</li>
-										<li>
-											<a href="home-product-slider.html">Product Slider</a>
-										</li>
-										<li>
-											<a href="home-user-onboarding.html">User Onboarding</a>
-										</li>
-										<li>
-											<a href="home-domain-search.html">Domain Search</a>
-										</li>
-										<li>
-											<a href="home-custom-color.html">Custom Color</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="elements-other.html">Elements</a>
-									<ul>
-										<li>
-											<a href="blog-sidebar.html">Blog Sidebar</a>
-										</li>
-										<li>
-											<a href="elements-columns.html">Column Rows</a>
-										</li>
-										<li>
-											<a href="elements-sliders.html">Content Sliders</a>
-										</li>
-										<li>
-											<a href="elements-pricing.html">Pricing Options</a>
-										</li>
-										<li>
-											<a href="elements-masonry.html">Masonry Grid</a>
-										</li>
-										<li>
-											<a href="elements-forms.html">Form Inputs</a>
-										</li>
-										<li>
-											<a href="elements-tabs.html">Tab Groups</a>
-										</li>
-										<li>
-											<a href="elements-galleries.html">Galleries</a>
-										</li>
-										<li>
-											<a href="elements-other.html">Other</a>
-										</li>
-									</ul>
-								</li>
+								<li><a href="#">Unlimited Hosting </a></li>
+								<li><a href="#">Web Hosting </a></li>
+								<li><a href="#">Reseller Hosting </a></li>
+								<li><a href="#">Corporate E-Mail Hosting </a></li>
+								<li><a href="#">Wordpress Hosting </a></li>
+								<li><a href="#">Vps Hosting </a></li>
 							</ul>
 						</li>
-						<li>
-							<a href="#">Hosting</a>
-						</li>
+						
 						<li>
 							<a href="#">Domain</a>
 						</li>
 						<li>
 							<a href="#">Contact</a>
 						</li>
+						
+						
 						<li>
 							<a class="button button-secondary" href="client-login.html">
 								<i class="fas fa-lock icon-left"></i>Client Login

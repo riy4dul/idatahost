@@ -11,10 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
-Route::get('/', 'frontend\IDataHostController@index')->name('home');
+// =================Frontend=================
+Route::group(['namespace' => 'frontend'], function() {
+
+	Route::get('/', 'IDataHostController@index');
+
+});
+
+Route::group(['middleware' =>'auth' , 'namespace' => 'backend'], function(){
+
+	Route::get('/home', 'HomeController@index')->name('home');
+});
