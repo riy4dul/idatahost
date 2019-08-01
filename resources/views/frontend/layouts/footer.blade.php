@@ -21,7 +21,6 @@
 					</h5><br>
 					10/2 Sher-E-Bangla Road, Katasur <br><br>
 					Mohammadpur,Dhaka Bangladesh <br><br>
-					<b>Call:</b> +88 01911343443 <br><br>
 					<b>Call:</b> +88 01400883400 <br><br>
 					<b>Email:</b> support@bdsoftit.com <br><br>
 				</div>

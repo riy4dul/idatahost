@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\frontend;
+namespace App\Http\Controllers\backend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class IDataHostController extends Controller
+class DedicatedServerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class IDataHostController extends Controller
      */
     public function index()
     {
-        return view('frontend.home');
+        // 
     }
 
     /**
@@ -22,9 +22,9 @@ class IDataHostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function dedicatedServer()
+    public function create()
     {
-        return view('frontend.dedicated-server');
+        //
     }
 
     /**
@@ -33,9 +33,9 @@ class IDataHostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function CloudServer()
+    public function store(Request $request)
     {
-        return view('frontend.cloud-server');
+        //
     }
 
     /**
@@ -44,9 +44,9 @@ class IDataHostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function storageServer()
+    public function show($id)
     {
-        return view('frontend.storage-server');
+        //
     }
 
     /**
@@ -55,44 +55,9 @@ class IDataHostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function unlimitedHosting()
+    public function edit($id)
     {
-        return "hi";
-    }
-
-    public function webHosting()
-    {
-        return "hi";
-    }
-
-    public function resellerHosting()
-    {
-        return "hi";
-    }
-
-    public function corporateEMailHosting()
-    {
-        return "hi";
-    }
-
-    public function wordpressHosting()
-    {
-        return "hi";
-    }
-
-    public function vpsHosting()
-    {
-        return "hi";
-    }
-
-    public function domain()
-    {
-         return view('frontend.domain');
-    }
-
-    public function contact()
-    {
-        return view('frontend.contact');
+        //
     }
 
     /**

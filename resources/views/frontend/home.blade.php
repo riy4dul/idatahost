@@ -298,9 +298,9 @@
 							<p>
 								We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and extensive DDoS protection.
 							</p>
-							<p>
+							{{-- <p>
 								<a href="network.html">Anycast Network<i class="fas fa-angle-right icon-right"></i></a>
-							</p>
+							</p> --}}
 						</div>
 						<div class="column-33">
 							<i class="fas fa-cloud icon-feature"></i>
@@ -310,9 +310,9 @@
 							<p>
 								Our cloud platform offers a 99.99% SLA uptime guarantee with full hardware and network redundancy to keep your services online.
 							</p>
-							<p>
+							{{-- <p>
 								<a href="network.html">Cloud Platform<i class="fas fa-angle-right icon-right"></i></a>
-							</p>
+							</p> --}}
 						</div>
 						<div class="column-33">
 							<i class="fas fa-life-ring icon-feature"></i>
@@ -322,9 +322,9 @@
 							<p>
 								Our dedicated in-house support team is available 24/7 to answer all technical difficulties you may encounter with any of our products.
 							</p>
-							<p>
+							{{-- <p>
 								<a href="contact.html">Support Portal<i class="fas fa-angle-right icon-right"></i></a>
-							</p>
+							</p> --}}
 						</div>
 					</div>
 					<div class="column-row align-center-bottom text-align-center">
@@ -336,9 +336,9 @@
 							<p>
 								You are 100% tension free with our Daily Backup facility. We store your data until 7 days, so you can restore your data in the week from you lost.
 							</p>
-							<p>
+							{{-- <p>
 								<a href="home.html">Cloud Products<i class="fas fa-angle-right icon-right"></i></a>
-							</p>
+							</p> --}}
 						</div>
 						<div class="column-33">
 							<i class="fas fa-life-ring icon-feature"></i>
@@ -348,9 +348,9 @@
 							<p>
 								We protected your data by exploit scanner, firewall & anti-DDoS & enjoy extra level security with cloud linux OS and get Get dedicated hosting resource.
 							</p>
-							<p>
+							{{-- <p>
 								<a href="contact.html">Support Portal<i class="fas fa-angle-right icon-right"></i></a>
-							</p>
+							</p> --}}
 						</div>
 						<div class="column-33">
 							<i class="fas fa-cog icon-feature"></i>
@@ -360,9 +360,9 @@
 							<p>
 								You don't have to worry about spam emails anymore, with affordable enterprise anti-spam solution that erases all the worries (spam) from your inbox.
 							</p>
-							<p>
+							{{-- <p>
 								<a href="features.html">Developer Guide<i class="fas fa-angle-right icon-right"></i></a>
-							</p>
+							</p> --}}
 						</div>
 					</div>
 				</div>
