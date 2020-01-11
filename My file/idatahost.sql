@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 31, 2019 at 02:16 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.3.0
+-- Generation Time: Jan 11, 2020 at 06:16 PM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -81,7 +81,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `role`, `name`, `phone`, `email`, `email_verified_at`, `photo`, `address`, `service`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, NULL, 'BDSOFTIT', NULL, 'support@bdsoftit.com', NULL, NULL, NULL, NULL, '$2y$10$9jb9UV1RUXM4F4NRpVGzwuIXAn39raGhVGzQEcdBpMbhLAa5YxpZy', NULL, '2019-07-30 23:23:55', '2019-07-30 23:23:55');
+(1, NULL, 'BDSOFTIT', NULL, 'support@bdsoftit.com', NULL, NULL, NULL, NULL, '$2y$10$9jb9UV1RUXM4F4NRpVGzwuIXAn39raGhVGzQEcdBpMbhLAa5YxpZy', NULL, '2019-07-30 23:23:55', '2019-07-30 23:23:55'),
+(2, NULL, 'Riyadul', NULL, 'riyadul@gmail.com', NULL, NULL, NULL, NULL, '$2y$10$XvQ1fM0c0DSuNUz1S1q86Obtum63cWAsxYtSDVggq/IzpVqcNNS2C', NULL, '2020-01-11 11:15:57', '2020-01-11 11:15:57');
 
 --
 -- Indexes for dumped tables
@@ -120,7 +121,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
